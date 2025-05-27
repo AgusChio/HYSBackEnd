@@ -9,7 +9,7 @@
     "test": "jest",
     "migrate": "node src/scripts/migrate.js",
     "build": "npm run build:functions",
-    "build:functions": "netlify-lambda build netlify/functions netlify/functions-build"
+    "build:functions": "netlify-lambda build netlify/functions -o netlify/functions-build"
   },
   "dependencies": {
     "@netlify/functions": "^2.0.0",
